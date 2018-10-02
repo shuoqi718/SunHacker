@@ -1,0 +1,41 @@
+#map {
+    height: 100%;
+    width: 70%;
+}
+.map{
+	height: 100%;
+}
+.scroll{
+	width: 18rem;
+	height: 100%;
+	overflow-y: scroll;
+	-webkit-box-shadow: -1px 4px 21px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 21px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 21px 0px rgba(0,0,0,0.75);
+}
+/* Optional: Makes the sample page fill the window. */
+.borderless{
+	border-left: 0;
+	border-right: 0;
+	border-style: dotted;
+}
+.borderless:first-child{
+	border-top: 0;
+}
+.borderless:hover{
+	background-color: #f5f5f5;
+}
+
+td.details-control{
+	background: url('../img/open.jpg') no-repeat center center;
+	cursor: pointer;
+	background-size: 30px 30px;
+}
+
+/*td.shown td.details-control{
+	background: url('../img/minus.png') no-repeat center center;
+	background-size: 20px 20px;
+}*/
+.datatable{
+	width: 100%;
+}

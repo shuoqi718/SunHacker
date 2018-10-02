@@ -1,0 +1,1 @@
+var city = ["Adelaide, SA", "Alice Springs, NT", "Brisbane, QLD", "Casey, VIC", "Darwin, NT", "kingston, TA", "Melbourne, VIC", "Newcastle, NSW", "Perth, WA", "Sydney, NSW", "Toowoomba, QLD", "Townsville, QLD"]

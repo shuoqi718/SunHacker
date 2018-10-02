@@ -1,0 +1,22 @@
+.zc-ref {
+  display: none;
+}
+#myChart-wrapper{
+  margin:auto;
+}
+
+.hidden{
+	display: none;
+}
+
+.btn.btn-custom-square{
+	border-radius: 0;
+	background-color: transparent;
+	border: 1px solid;
+}
+
+.btn.btn-custom-square:hover{
+	/*background-color: #d4d7db;*/
+	border-color: #d4d7db;
+	outline: none;
+}
