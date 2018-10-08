@@ -170,7 +170,7 @@ function initUvisd(){
 }
 
 function initMelbourneOption(){
-    for(var i=0;i<age;i++){
+    for(var i=1;i<age;i++){
         var option = '<option value="' + i + '">' + i + '</option>';
         $('#melbourne-stay').append(option);
     }

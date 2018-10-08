@@ -149,12 +149,52 @@
 
 
     
-    <section class="map g-pt-10" style="background-image: url(img/17.jpg);background-size: auto">
+    <section class="map g-pt-10" style="background-image: url(img/17.jpg);background-size: auto; height: auto">
       <div class="container map" >
         <br>
-          <h5>A: Seeking for professional advice and treatment? Use our map below. You can find the clinics near you within 5 km.</h5>
+          <h5>Seeking for professional advice and treatment? Use our map below. You can find the clinics near you within 5 km.</h5>
+          <p>
+            <span>Or search for all clinics: </span>
+            <button type="button" class="btn btn-custom-square" data-toggle="modal" data-target="#exampleModal">
+              Search clinics
+            </button>
+          </p>  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Search clinics</h5>
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <table id="table" class="table table-striped table-bordered" style="width: 100%">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Hospital</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Postcode</th>
+                        <th>Sector</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      
+                    </tfoot>
+                  </table>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
           <br>
-        <div class="row map justify-content-center">
+        <div class="row map justify-content-center" style="height: 600px;">
           <div class="scroll">
             <ul class="list-group" id="hospitals">             
             </ul>
@@ -167,27 +207,7 @@
 
 
    
-    <section class="hospital-table g-bt-10" style="background-image: url(img/17.jpg);background-size: auto">
-      <div class="container datatable" >
-      	<h5>B: Searching for all clinics in Victoria.</h5>
-      	<br>
-        <table id="table" class="table table-striped table-bordered" style="width: 100%">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Hospital</th>
-              <th>Phone</th>
-              <th>Address</th>
-              <th>Postcode</th>
-              <th>Sector</th>
-            </tr>
-          </thead>
-          <tfoot>
-            
-          </tfoot>
-        </table>
-      </div>
-    </section>
+
     
 
   
