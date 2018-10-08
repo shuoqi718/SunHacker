@@ -164,6 +164,13 @@
           </div>
 </div>
 
+            <script>
+              document.getElementById('countrySelect').addEventListener('change', function(){
+                $('html,body').animate({
+                    scrollTop: $('#index').offset().top
+                }, 600);
+              })
+            </script>
             <div class="mx-auto">
               
                     <h3  style=" color: black; font-weight: bold;"> The current UV index is <span id="index" style="color:orange; font-weight: bold; font-size: 50px"></span> in <span id="cities"></span>

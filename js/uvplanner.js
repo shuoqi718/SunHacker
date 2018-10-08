@@ -114,8 +114,17 @@ function changeOption(forecasts){
 	})
 	submit.addEventListener('click', function(){
 		var email = $('#email-address').val();
+		if(!validateEmail(email)){
+			alert('Please enter a valid email address!')
+			return;
+		}
 		sendEmail(email);
 	})
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
 }
 
 function sendEmail(email){
