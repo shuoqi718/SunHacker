@@ -64,7 +64,7 @@
               <!-- Logo -->
               <a href="#!" class="js-go-to navbar-brand u-header__logo"
               data-type="static">
-              <a class="navbar-brand js-scroll-trigger" href="index.html" style="font-family: sans-serif;text-shadow:0px 0px 15px orange;"> SunHacker</a>
+              <a class="navbar-brand js-scroll-trigger" href="index.html" style="text-shadow:0px 0px 15px orange;"> SunHacker</a>
            </a>
               <!-- End Logo -->
     

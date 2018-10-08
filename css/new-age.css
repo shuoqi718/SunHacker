@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Helvetica Neue";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -97,7 +97,7 @@ footer a{
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Helvetica Neue";
   letter-spacing: 2px;
   text-transform: uppercase;
 }

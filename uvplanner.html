@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <!-- Title -->
         <title>Welcome to SunHacker</title>
@@ -11,19 +12,35 @@
     
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico">
-    
+        <link rel="stylesheet" type="text/css" href="css/loading-bar.css"/>
         <!-- Google Fonts -->
-        <link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet"> 
     
         <!-- CSS Global Compulsory -->
         <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
     
         <!-- CSS Implementing Plugins -->
         
+        <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+
+        <!-- CSS Implementing Plugins -->
+        <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+        <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
+        <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
+        <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+        <link rel="stylesheet" href="assets/vendor/chosen/chosen.css">
+        <link rel="stylesheet" href="assets/vendor/animate.css">
+        <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    
+        <!-- Revolution Slider -->
+        <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/settings.css">
+        <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/layers.css">
+        <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/navigation.css">
     
         <!-- CSS Template -->
         <link rel="stylesheet" href="assets/css/styles.op-agency.css">
-    
         <!-- CSS Customization -->
         <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Bootstrap core CSS -->
@@ -35,15 +52,17 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    
 
     <!-- Custom styles for this template -->
     <!-- <link href="css/new-age.min.css" rel="stylesheet"> -->
-    <link href="css/new-age.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/jquery-ui-1.12.1/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/uvplanner.css">
-      
 
+    
+    <link href="css/new-age.css" rel="stylesheet">
+   <link href="css/clean-blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/riskassess.css">
+    <link rel="stylesheet" href="css/jquery-ui-1.12.1/jquery-ui.min.css">
  
 
   </head>
@@ -67,9 +86,8 @@
                 <!-- Logo -->
                 <a href="#!" class="js-go-to navbar-brand u-header__logo"
                 data-type="static">
-                <a class="navbar-brand js-scroll-trigger" href="index.html" style="font-family: sans-serif;text-shadow:0px 0px 15px orange;"> SunHacker
-                </a>
-                
+               
+               <a class="navbar-brand js-scroll-trigger" href="index.html" style="text-shadow:0px 0px 15px black;color:orange;font-weight: bolder;font-family: cursive;font-size:180%;"> SunHacker</a>
              </a>
                 <!-- End Logo -->
       
@@ -121,27 +139,22 @@
         <!-- End Header -->
 
       <section id="planner" style="background-image: url(img/17.jpg);">
-        <div class="container text-center" style="margin-bottom: 100px;">
-          <h3>Make your own activity planner</h3>
-        </div>
-        <div class="container">
-          <div class="progress">
-            <div class="progress-bar hidden" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progress"></div>
-          </div>
+        <div class="container text-center" style="margin-top: 40px;">
+          <h1>Make your own activity planner</h1>
         </div>
         <div class="container">
           <div class="row">
-            <div class="container card card-custom" style="height: auto;width: 45%; margin-top: 100px;" id="planner-content">
-              <div class="row justify-content-center text-center custom" id="0" style="margin-top:100px; margin-bottom:100px;">
+            <div class="container card card-custom" style="height: auto;width: 45%; margin-top: 40px;" id="planner-content">
+              <div class="row justify-content-center text-center custom" id="0" style="margin-top:120px;">
                 <h3>Instructions</h3>
                 <div class="card-body">
                   You can use this tool to make your plan of your future activities within 7 days. Please follow the instruction and we will provide you a detailed information and suggestions about your activity.<br><br>
                 </div>
-                <div class="text-center" style="margin-top: 50px;">
+                <div class="text-center" style="margin-bottom: 10px;">
                     <button class="btn btn-primary" id="start">Start</button>
                 </div>
               </div>
-              <div class="row justify-content-center text-center custom hidden" style="margin-top:100px; margin-bottom:100px;" id="1">
+              <div class="row justify-content-center text-center custom hidden" style="margin-top:40px; margin-bottom:100px;" id="1">
                 <h3 class="w-100">1. Please pick the date of activity</h3>
                 <div class="form-group custom" style="margin-top: 50px;">
                   <input type="text" class="form-control" id="datepicker">
@@ -150,7 +163,7 @@
                     <button class="btn btn-primary" id="date">Continue</button>
                 </div>
               </div>
-              <div class="row justify-content-center text-center custom hidden" style="margin-top:100px; margin-bottom:100px;" id="2">
+              <div class="row justify-content-center text-center custom hidden" style="margin-top:40px; margin-bottom:100px;" id="2">
                 <h3 class="w-100">2. Please select the type of activity</h3>
                 <div class="form-group custom" style="margin-top: 50px;">
                   <select class="form-control" id="activity">
@@ -163,7 +176,7 @@
                   </select>
                 </div>
               </div>
-              <div class="row custom hidden" style="margin-top:100px; margin-bottom:100px;" id="3">
+              <div class="row custom hidden" style="margin-top:40px; margin-bottom:100px;" id="3">
                 <h3 class="w-100 text-center">Here is our suggestions:</h3>
                 <p class="w-100 text-center">The uv index at that day is <span id="uv-index"></span>. The risk is <span id="risk-level"></span>.</p>
                 <div class="hidden" style="margin-left:100px" id="Camping">
@@ -232,7 +245,7 @@
             <div class="col-lg-1" id="planner-blank">
               
             </div>
-            <div class="container card card-custom" style="height: 500px; width: 45%; margin-top: 100px;" id="planner-trend">
+            <div class="container card card-custom" style="height: 500px; width: 45%; margin-top: 40px;" id="planner-trend">
               <div class="row justify-content-center text-center custom" id="4">
                 <h3>Forecasted UV index trend in 7 days</h3>
                 <div class="card-body">
@@ -252,39 +265,45 @@
           </div>
           
         </div>
+
+        <div class="container" style="margin-top:40px;">
+          <div class="progress">
+            <div class="progress-bar hidden" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progress"></div>
+          </div>
+        </div>
         
       </section>
 
       <footer class="text-center">
         
 
-          <div class="g-color-gray-dark-v5 g-theme-bg-gray-dark-v2  g-py-30 g-py-70--md">
-            <a class="d-inline-block g-mb-30" href="/">
-              <img class="img-fluid g-width-100" src="img/logo.png" alt="Image description">
-            </a>
-   
-            <ul class="list-inline text-uppercase g-font-weight-700 g-font-size-11 mb-0">
-              <li class="list-inline-item g-px-12--md">
-                <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">About</a>
-              </li>
-              <li class="list-inline-item g-px-12--md">
-                <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Why we</a>
-              </li>
-              <li class="list-inline-item g-px-12--md">
-                <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Services</a>
-              </li>
-              <li class="list-inline-item g-px-12--md">
-                <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Team</a>
-              </li>
-              <li class="list-inline-item g-px-12--md">
-                <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </footer>
+        <div class="g-color-gray-dark-v5 g-theme-bg-gray-dark-v2  g-py-30 g-py-70--md">
+          <a class="d-inline-block g-mb-30" href="/">
+            <img class="img-fluid g-width-100" src="img/logo.png" alt="Image description">
+          </a>
+          <p>Copyright @ 2018 SunHacker. Designed by D3S</p>
+          <ul class="list-inline text-uppercase g-font-weight-700 g-font-size-11 mb-0">
+            <li class="list-inline-item g-px-12--md">
+              <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="index.html">Home</a>
+            </li>
+            <li class="list-inline-item g-px-12--md">
+              <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="about.html">About</a>
+            </li>
+            <li class="list-inline-item g-px-12--md">
+              <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="index.html">Services</a>
+            </li>
+            <li class="list-inline-item g-px-12--md">
+              <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="term.html">Term of Use</a>
+            </li>
+            <li class="list-inline-item g-px-12--md">
+              <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="copyright.html">Copyright</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
         <!-- End Footer -->
     
-          <a class="js-go-to u-go-to-v1" href="#!"
+          <a class="js-go-to u-go-to-v1" href="#js-header"
              data-type="fixed"
              data-position='{
                "bottom": 15,

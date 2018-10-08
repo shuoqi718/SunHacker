@@ -9,7 +9,7 @@ html {
 body {
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue";
   line-height: 1.6;
   color: #26304d;
   -webkit-font-smoothing: antialiased;
@@ -10201,7 +10201,7 @@ body .u-icon-v5 {
   position: absolute;
   top: 50%;
   right: 15px;
-  font-family: 'FontAwesome', sans-serif;
+  font-family: "Helvetica Neue";
   color: #f00;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -22185,7 +22185,7 @@ video {
 
 .navbar .u-sub-menu-v4 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue";
   position: absolute;
   top: 50%;
   right: 15px;

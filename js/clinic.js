@@ -149,6 +149,7 @@ function initHospital(){
             hospital.sector = childSnapshot.child('Sector').val()
             hospital.postcode = childSnapshot.child('Postcode').val()
             hospital.phone = childSnapshot.child('Phone number').val()
+            hospital.fulladdress = hospital.address + ', ' + hospital.suburb;
             if(childSnapshot.child('Website').val() == null){
             	hospital.website = "No website yet"
             }
@@ -221,7 +222,8 @@ function datatable(d){
 		{ "data": 'name'},
 		{ "data": 'phone',
 			"width": "15%"},
-		{ "data": 'address'},
+		{ "data": 'fulladdress'},
+		{ "data": 'postcode'},
 		{ "data": 'sector'}
 		],
 		"order":[[1, 'asc']]

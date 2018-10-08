@@ -3024,13 +3024,13 @@
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue";
 
 .g-font-code {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family: "Helvetica Neue";
 
 .g-font-niconne {
-  font-family: "Niconne", cursive; }
+  font-family: "Helvetica Neue"; }
 
 /*------------------------------------
   Typography Font Size

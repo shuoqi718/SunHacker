@@ -68,9 +68,8 @@
                   <!-- Logo -->
                   <a href="#!" class="js-go-to navbar-brand u-header__logo"
                   data-type="static">
-                  <a class="navbar-brand js-scroll-trigger" href="index.html" style="font-family: sans-serif;text-shadow:0px 0px 15px orange;"> SunHacker
-                  </a>
-                  
+                 
+                 <a class="navbar-brand js-scroll-trigger" href="index.html" style="text-shadow:0px 0px 15px black;color:orange;font-weight: bolder;font-family: cursive;font-size:180%;"> SunHacker</a>
                </a>
                   <!-- End Logo -->
         
@@ -123,15 +122,14 @@
  
 <div class="g-bg-img-hero  " style="background-image: url(img/17.jpg);">
       <!-- Programs Filters -->
-      <section class="container g-py-100" >
+      <section class="container " >
         <div class="u-shadow-v1-5 g-line-height-2 g-pa-40 g-mb-30 g-color-white-opacity-0_7 " role="alert">
-        <div class="container g-pt-100 g-pb-70 ">
+        <div class="container  ">
           <!-- Heading -->
-          <div class="g-max-width-645 text-center mx-auto g-mb-60">
-            <h2 class="h1 mb-0">Real-time UV index</h2>
-            <p class="d-block g-font-weight-500 text-uppercase mb-4" style="color:black;">In all Australian capital cities.</p>
+          <div class="text-center">
+            <h1  style="color:black;">Real-time UV index</h1>
+            
           
-
             <h3 id="current-time" style="color:black;"></h3>
             <script>
                 function doDate() {
@@ -150,40 +148,28 @@
             </script>
 
           <!-- Heading -->
-          <div class="form-group" style="text-align:center;font-weight: bold;font-size:30px;color:rgb(115, 33, 37)">
+          <div class="form-group" style="color:black">
                 <label for="countrySelect">Select your city</label>
                 <select class="form-control" id="countrySelect" style="color:black;width:30%; margin:0 auto;">
-                  <option value="Melbourne">Melbourne</option>
-                  <option value="Adelaide">Adelaide</option>
-                  <option value="Alice Springs">Alice Springs</option>
-                  <option value="Brisbane">Brisbane</option>
-                  <option value="Canberra">Canberra</option>
-                  <option value="Casey">Casey</option>
-                  <option value="Darwin">Darwin</option>
-                  <option value="Davis">Davis</option>
-                  <option value="Gold Coast">Gold Coast</option>
-                  <option value="Kingston">Kingston</option>
-                  <option value="Macquarie Island">Macquarie Island</option>
-                  <option value="Mawson">Mawson</option>
-                  <option value="Newcastle">Newcastle</option>
-                  <option value="Perth">Perth</option>
-                  <option value="Sydney">Sydney</option>
-                  <option value="Townsville">Townsville</option>
+                  <option value="Melbourne">Melbourne, VIC</option>
+                  <option value="Sydney">Sydney, NSW</option>
+                  <option value="Canberra">Canberra, NSW</option>
+                  <option value="Adelaide">Adelaide, SA</option>
+                  <option value="Darwin">Darwin, NT</option>
+                  <option value="Brisbane">Brisbane, QLD</option>
+                  <option value="Gold Coast">Gold Coast, QLD</option>
+                  <option value="Perth">Perth, WA</option>
                 </select>
               </div>
           </div>
 </div>
 
-            <div class="mx-auto" id="current-uv">
+            <div class="mx-auto">
               
                     <h3  style=" color: black; font-weight: bold;"> The current UV index is <span id="index" style="color:orange; font-weight: bold; font-size: 50px"></span> in <span id="cities"></span>
                     <span id="attention" ></span></h3>
-                    </div>
-
-
-            <div class="h-100 justify-content-center" style="color:black; font-weight: bold; font-size: 30px;">Risk level :   <span id="test"> <span style=" font-weight: bold; font-size: 50px" id="risklevel"></span></span></div>
-
-   
+            <p style="color:black; font-weight: bold; font-size: 30px;">Risk level :   <span id="test"> <span style=" font-weight: bold; font-size: 30px" id="risklevel"></span></span></p>
+            </div>
                  <script src= "https://cdn.zingchart.com/2.3.1/zingchart.min.js"></script>
                 <script> ZC.MODULESDIR = 'https://cdn.zingchart.com/2.3.1/modules/';
                 ZC.LICENSE = ['569d52cefae586f634c54f86dc99e6a9','ee6b7db5b51705a13dc2339db3edaf6d'];</script>
@@ -192,44 +178,38 @@
         </section>
 </div>
 
-<script type="text/javascript">
-  document.getElementById('countrySelect').addEventListener('change',function(){
-    $('html, body').animate({
-      scrollTop:$('#current-uv').offset().top
-    },600);
-  })
-</script>
+
 
        
         
   
-          <footer class="text-center">
+<footer class="text-center">
         
 
-              <div class="g-color-gray-dark-v5 g-theme-bg-gray-dark-v2  g-py-30 g-py-70--md">
-                <a class="d-inline-block g-mb-30" href="/">
-                  <img class="img-fluid g-width-100" src="img/logo.png" alt="Image description">
-                </a>
-       
-                <ul class="list-inline text-uppercase g-font-weight-700 g-font-size-11 mb-0">
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">About</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Why we</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Services</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Team</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </footer>
+  <div class="g-color-gray-dark-v5 g-theme-bg-gray-dark-v2  g-py-30 g-py-70--md">
+    <a class="d-inline-block g-mb-30" href="/">
+      <img class="img-fluid g-width-100" src="img/logo.png" alt="Image description">
+    </a>
+    <p>Copyright @ 2018 SunHacker. Designed by D3S</p>
+    <ul class="list-inline text-uppercase g-font-weight-700 g-font-size-11 mb-0">
+      <li class="list-inline-item g-px-12--md">
+        <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="index.html">Home</a>
+      </li>
+      <li class="list-inline-item g-px-12--md">
+        <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="about.html">About</a>
+      </li>
+      <li class="list-inline-item g-px-12--md">
+        <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="index.html">Services</a>
+      </li>
+      <li class="list-inline-item g-px-12--md">
+        <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="term.html">Term of Use</a>
+      </li>
+      <li class="list-inline-item g-px-12--md">
+        <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="copyright.html">Copyright</a>
+      </li>
+    </ul>
+  </div>
+</footer>
             <!-- End Footer -->
         
               <a class="js-go-to u-go-to-v1" href="#!"

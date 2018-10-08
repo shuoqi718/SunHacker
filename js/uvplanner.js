@@ -173,8 +173,7 @@ function sendEmail(email){
 		subject: `Your sun protection plan for your future activity`,
 		body: body
 	});
-	document.getElementById('send-email').disabled = true;
-	alert('Thank you for using our tools. Please check your emails');
+	$('#message').toggleClass('hidden');
 }
 
 function initResult(forecasts){

@@ -84,9 +84,8 @@
                 <!-- Logo -->
                 <a href="#!" class="js-go-to navbar-brand u-header__logo"
                 data-type="static">
-                <a class="navbar-brand js-scroll-trigger" href="index.html" style="font-family: sans-serif;text-shadow:0px 0px 15px orange;"> SunHacker
-                </a>
-                
+               
+               <a class="navbar-brand js-scroll-trigger" href="index.html" style="text-shadow:0px 0px 15px black;color:orange;font-weight: bolder;font-family: cursive;font-size:180%;"> SunHacker</a>
              </a>
                 <!-- End Logo -->
       
@@ -139,15 +138,11 @@
 
         
         <section id="riskassess" style="background-image: url(img/17.jpg);">
-          <div class="container text-center" style="margin-bottom: 100px;">
-            <h3>Your risk and skin cancer</h3>
+          <div class="container text-center" style="margin-top:40px;">
+            <h1>Your risk and skin cancer</h1>
           </div>
-          <div class="container">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progress"></div>
-            </div>
-          </div>
-          <div class="container card card-custom" style="height: 500px; margin-top: 100px;" id="flips">
+
+          <div class="container card card-custom" style="height: 500px; margin-top: 40px;" id="flips">
             <div class="row justify-content-center text-center custom" id="0">
               
               <div class="col-lg-6">
@@ -174,7 +169,7 @@
             </div>
             
             <div class="row justify-content-center text-center custom hidden" id="2">
-              <h3>2. How long did you go outside in weekdays?</h3>
+              <h3>2. How much time you spent ourside during WEEKDAYS?</h3>
               <p class="w-100">(During 10:00AM to 4:00PM)</p>
               <div class="form-group custom" style="margin-top: 50px;">
                 <select class="form-control" id="weekday">
@@ -184,7 +179,7 @@
               
             </div>
             <div class="row justify-content-center text-center custom hidden" id="3">
-              <h3 class=" w-100">3. How long did you go outside in weekends?</h3>
+              <h3 class=" w-100">3. How much time you spent outside during WEEKENDS?</h3>
               <p class="w-100">(During 10:00AM to 4:00PM)</p>
               <div class="form-group custom" style="margin-top: 50px;">
                 <select class="form-control" id="weekend">
@@ -193,7 +188,7 @@
               </div>
             </div>
             <div class="row justify-content-center text-center custom hidden" id="4">
-              <h3 class=" w-100">4. Where did you live until now?</h3>
+              <h3 class=" w-100">4. What is your home country?</h3>
               <div class="form-group custom" style="margin-top: 50px;">
                 <select class="form-control" id="country">
                   <option value="0">Please select your country</option>
@@ -201,21 +196,27 @@
               </div>
             </div>
             <div class="row justify-content-center text-center custom hidden" id="5">
-              <h3 class=" w-100">5. How long do you stay in Melbourne?</h3>
+              <h3 class=" w-100">5. How long have you been in Melbourne</h3>
               <div class="form-group custom" style="margin-top: 50px;">
                 <select class="form-control" id="melbourne-stay">
-                  <option value="-1">Please select year</option>
+                  <option value="-1">Please select No of years.</option>
                 </select>
               </div>
             </div>
             <div class="row justify-content-center text-center custom hidden" id="6">
                 <h3 class=" w-100">Here is your result:</h3>
-                <p class="w-100">You uv score is <span id="uv-dose"></span>. The risk is <span id="risk-level"></span>.</p><br>
+                <p class="w-100">your uv score is <span id="uv-dose"></span>. The risk is <span id="risk-level"></span>.</p><br>
                 <p id="container">
                 </p>
                 <p class="w-100">Thank you for your testing.</p>
                 <p class=" w-100">If you want further advice, please use our clinic finder to find professional advice:</p>
                 <button class="btn btn-primary" id="clinic-finder">Clinic Finder</button>
+            </div>
+          </div>
+
+          <div class="container" style="margin-top:40px">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progress"></div>
             </div>
           </div>
         </section>
@@ -230,30 +231,30 @@
           <footer class="text-center">
         
 
-              <div class="g-color-gray-dark-v5 g-theme-bg-gray-dark-v2  g-py-30 g-py-70--md">
-                <a class="d-inline-block g-mb-30" href="/">
-                  <img class="img-fluid g-width-100" src="img/logo.png" alt="Image description">
-                </a>
-       
-                <ul class="list-inline text-uppercase g-font-weight-700 g-font-size-11 mb-0">
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">About</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Why we</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Services</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Team</a>
-                  </li>
-                  <li class="list-inline-item g-px-12--md">
-                    <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="#!">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </footer>
+            <div class="g-color-gray-dark-v5 g-theme-bg-gray-dark-v2  g-py-30 g-py-70--md">
+              <a class="d-inline-block g-mb-30" href="/">
+                <img class="img-fluid g-width-100" src="img/logo.png" alt="Image description">
+              </a>
+              <p>Copyright @ 2018 SunHacker. Designed by D3S</p>
+              <ul class="list-inline text-uppercase g-font-weight-700 g-font-size-11 mb-0">
+                <li class="list-inline-item g-px-12--md">
+                  <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="index.html">Home</a>
+                </li>
+                <li class="list-inline-item g-px-12--md">
+                  <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="about.html">About</a>
+                </li>
+                <li class="list-inline-item g-px-12--md">
+                  <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="index.html">Services</a>
+                </li>
+                <li class="list-inline-item g-px-12--md">
+                  <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="term.html">Term of Use</a>
+                </li>
+                <li class="list-inline-item g-px-12--md">
+                  <a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="copyright.html">Copyright</a>
+                </li>
+              </ul>
+            </div>
+          </footer>
             <!-- End Footer -->
         
               <a class="js-go-to u-go-to-v1" href="#!"

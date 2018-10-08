@@ -9,7 +9,7 @@ html {
 body {
   font-weight: 400;
   font-size: 1rem;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Helvetica Neue", "Helvetica Neue";
   line-height: 1.6;
   color: #a49da6;
   -webkit-font-smoothing: antialiased;
@@ -10152,7 +10152,7 @@ body .u-icon-v5 {
   position: absolute;
   top: 50%;
   right: 15px;
-  font-family: 'FontAwesome', sans-serif;
+  font-family: "Helvetica Neue", 'FontAwesome', sans-serif;
   color: #f00;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -18132,7 +18132,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v1 .form-control {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.85714rem;
 }
 
@@ -18149,7 +18149,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   Searchform v2
 ------------------------------------*/
 .u-searchform-v2 .form-control {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 0.85714rem;
   color: rgba(255, 255, 255, 0.85);
@@ -18226,7 +18226,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v3 .form-control {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: inherit;
   color: inherit;
@@ -18283,7 +18283,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   Searchform v4
 ------------------------------------*/
 .u-searchform-v4 .form-control {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.85714rem;
   width: 20rem;
   padding: 0.71429rem 2.85714rem 0.71429rem 0.71429rem;
@@ -18348,7 +18348,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v5 .form-control {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.85714rem;
   text-transform: uppercase;
   color: #777;
@@ -21143,7 +21143,7 @@ video {
 
 .navbar .u-main-nav-v1 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v1 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v1 .nav-item.dropdown > a::after, .navbar .u-main-nav-v2 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v2 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v2 .nav-item.dropdown > a::after, .navbar .u-main-nav-v3 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v3 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v3 .nav-item.dropdown > a::after, .navbar .u-main-nav-v4 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v4 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v4 .nav-item.dropdown > a::after, .navbar .u-main-nav-v5 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v5 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v5 .nav-item.dropdown > a::after, .navbar .u-main-nav-v6 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v6 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v6 .nav-item.dropdown > a::after, .navbar .u-main-nav-v7 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v7 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v7 .nav-item.dropdown > a::after, .navbar .u-main-nav-v8 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v8 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v8 .nav-item.dropdown > a::after, .navbar .u-main-nav-v9 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v9 .nav-item.hs-has-mega-menu > a::after {
   content: "\e900";
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue", "hs-icons";
   font-weight: inherit;
   line-height: 1;
   position: absolute;
@@ -21526,7 +21526,7 @@ video {
 
 .navbar .u-sub-menu-v1 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue", "hs-icons";
   position: absolute;
   top: 50%;
   right: 15px;
@@ -21643,7 +21643,7 @@ video {
 
 .navbar .u-sub-menu-v2 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue", "hs-icons";
   position: absolute;
   top: 50%;
   right: 15px;
@@ -21768,7 +21768,7 @@ video {
 
 .navbar .u-sub-menu-v3 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue", "hs-icons";
   position: absolute;
   top: 50%;
   right: 15px;
@@ -21893,7 +21893,7 @@ video {
 
 .navbar .u-sub-menu-v4 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue", "hs-icons";
   position: absolute;
   top: 50%;
   right: 15px;
@@ -22914,7 +22914,7 @@ body.u-body--header-side-static-right .navbar [class*="u-main-nav-"] > .hs-has-m
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
-  font-family: inherit;
+  font-family: "Helvetica Neue", inherit;
   font-weight: 700;
   color: #000;
   border: none;
@@ -25230,7 +25230,7 @@ img.u-block-hover__main--magnifier-top-left {
 
 .u-blockquote-v6::before, .u-blockquote-v6::after {
   content: "\0022";
-  font-family: inherit;
+  font-family: "Helvetica Neue", inherit;
   color: inherit;
 }
 
@@ -25248,7 +25248,7 @@ img.u-block-hover__main--magnifier-top-left {
   width: 35px;
   height: 35px;
   font-size: 12px;
-  font-family: "FontAwesome";
+  font-family: "Helvetica Neue", "FontAwesome";
   color: #fff;
   line-height: 35px;
   background: #e74c3c;
@@ -27087,7 +27087,7 @@ img.u-block-hover__main--magnifier-top-left {
   content: "\e900";
   position: relative;
   top: 0.21429rem;
-  font-family: "hs-icons" !important;
+  font-family: "Helvetica Neue", "hs-icons" !important;
   font-size: 10px;
   display: inline;
   border: none;
@@ -27376,7 +27376,7 @@ img.u-block-hover__main--magnifier-top-left {
 
 .u-fancybox-theme .fancybox-button::before,
 .u-fancybox-theme .fancybox-arrow::before {
-  font-family: "hs-icons";
+  font-family: "Helvetica Neue", "hs-icons";
   position: static;
   opacity: 1;
   background-color: transparent;
@@ -32067,15 +32067,15 @@ pre[class*="language-"] .toolbar-item a {
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .g-font-code {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Helvetica Neue", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .g-font-niconne {
-  font-family: "Niconne", cursive;
+  font-family: "Helvetica Neue", "Niconne", cursive;
 }
 
 /*------------------------------------
